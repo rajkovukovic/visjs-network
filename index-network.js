@@ -9,6 +9,9 @@ exports.Queue = require('./lib/Queue')
 
 // Network
 exports.Network = require('./lib/network/Network')
+exports.CircleImageBase = require('./lib/network/modules/components/nodes/util/CircleImageBase').default
+exports.NodeBase = require('./lib/network/modules/components/nodes/util/NodeBase').default
+exports.ShapeBase = require('./lib/network/modules/components/nodes/util/ShapeBase').default
 exports.network = {
   Images: require('./lib/network/Images'),
   dotparser: require('./lib/network/dotparser'),
